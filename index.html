@@ -4,40 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet" />
     <title>Odin Landing Page</title>
   </head>
   <body>
-    <div class="header-container">
-      <header class="header">
-        <h1 class="header-item">Header Logo</h1>
+    <div class="hero-container">
+      <div class="header-container">
+        <header class="header">
+          <div class="header-item-container">
+            <h1 class="header-item">Header Logo</h1>
+          </div>
 
-        <ul class="header-links">
-          <li class="link iink-one">
-            <a href="#">Header link one</a>
-          </li>
-          <li class="link link-two">
-            <a href="#">Header link two</a>
-          </li>
-          <li class="link link-three">
-            <a href="#">Header link three</a>
-          </li>
-        </ul>
-      </header>
+          <div class="header-links-container">
+            <ul class="header-links">
+              <li class="link iink-one">
+                <a href="#">Header link one</a>
+              </li>
+              <li class="link link-two">
+                <a href="#">Header link two</a>
+              </li>
+              <li class="link link-three">
+                <a href="#">Header link three</a>
+              </li>
+            </ul>
+          </div>
+        </header>
+      </div>
+      <section class="section">
+        <div class="main-container">
+          <h2 class="main-text">This Website is awesome</h2>
+          <p class="hero-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
+            voluptate vel. Ab recusandae illo unde itaque corporis.
+          </p>
+          <button class="header-button">Sign Up</button>
+        </div>
+        <div class="section-image">
+          <img
+            class="main-image"
+            src="/odin-lp-img/cryptomain.jpg"
+            alt="Main Crypto Image" />
+        </div>
+      </section>
     </div>
-    <section class="section">
-      <h2 class="main-text">This Crypto Website is awesome.</h2>
-      <p class="hero-text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
-        voluptate vel. Ab recusandae illo unde itaque corporis repellendus, nisi
-        soluta ea dolorem laudantium labore totam rem vitae deleniti autem
-        eligendi.
-      </p>
-      <button class="header-button">Sign Up</button>
-      <div class="section-image">
+    <h3 class="info-text">Some random information.</h3>
+    <section class="img-section">
+      <div class="section-img">
         <img
-          class="main-image"
-          src="/odin-lp-img/cryptomain.jpg"
-          alt="Main Crypto Image" />
+          class="section-img-one"
+          src="./odin-lp-img/crypto1.jpg"
+          alt="Crypto image one" />
+        <p class="subtext">
+          this is some subtext under an illustration or image
+        </p>
+      </div>
+
+      <div class="section-img">
+        <img
+          class="section-img-two"
+          src="./odin-lp-img/crypto2.jpg"
+          alt="Crypto image two" />
+        <p class="subtext">
+          this is some subtext under an illustration or image
+        </p>
+      </div>
+
+      <div class="section-img">
+        <img
+          class="section-img-three"
+          src="./odin-lp-img/crypto3.jpg"
+          alt="Crypto image three" />
+        <p class="subtext">
+          this is some subtext under an illustration or image
+        </p>
+      </div>
+
+      <div class="section-img">
+        <img
+          class="section-img-four"
+          src="./odin-lp-img/crypto4.jpg"
+          alt="Crypto image four" />
+        <p class="subtext">
+          this is some subtext under an illustration or image
+        </p>
       </div>
     </section>
   </body>

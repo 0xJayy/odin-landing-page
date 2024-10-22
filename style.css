@@ -7,7 +7,7 @@
 
 body {
   min-height: 100dvh;
-  background-color: #1f2937;
+  background-color: white;
 }
 
 a {
@@ -19,30 +19,43 @@ ul {
   list-style: none;
 }
 
+.hero-container {
+  background-color: #1f2937;
+  min-height: 55dvh;
+}
+
 .header {
-  display: flex;
   color: #f9faf8;
   background-color: #1f2937;
   border: 5px solid red;
-  padding-left: 30px;
   padding-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 410px;
+}
+
+.header-container {
+  width: 100%;
+  /* border: 3px solid red;*/
 }
 
 .header-links {
   display: flex;
   gap: 20px;
-  align-items: flex-start;
   font-size: 18px;
   color: #e5e7eb;
-  margin-left: auto;
   padding-right: 40px;
   padding-top: 5px;
+  justify-content: flex-end;
+  /* border: 3px solid red;*/
 }
 
 .main-image {
-  width: 250px;
-  height: 150px;
-  border: 3px solid red;
+  width: 600px;
+  height: 300px;
+  /*border: 3px solid red;*/
 }
 
 .main-text {
@@ -54,25 +67,67 @@ ul {
 .hero-text {
   font-size: 18px;
   color: #e5e7eb;
+  margin-top: 10px;
 }
 
 .header-button {
   background-color: #3882f6;
   color: white;
-  width: 100px;
-  height: 30px;
   margin-top: 15px;
   border-radius: 10px;
+  border: none;
+  font-family: inherit;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 10px 37px;
+  font-weight: bold;
 }
 
 .section {
   border: 3px solid red;
   display: flex;
-  flex-wrap: wrap;
-  width: 800px;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 10%;
+  align-items: center;
 }
 
-.section-image {
+.main-container {
+  /*border: 3px solid red;*/
+  width: 30%;
+}
+
+.section-img-one,
+.section-img-two,
+.section-img-three,
+.section-img-four {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+}
+
+.info-text {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.img-section {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.section-img {
+  text-align: center;
+  width: 200px;
+}
+
+.subtext {
+  font-size: 18px;
 }
