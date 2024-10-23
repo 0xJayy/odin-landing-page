@@ -27,7 +27,7 @@ ul {
 .header {
   color: #f9faf8;
   background-color: #1f2937;
-  border: 5px solid red;
+  /*border: 5px solid red;*/
   padding-top: 30px;
   width: 100%;
   display: flex;
@@ -53,8 +53,8 @@ ul {
 }
 
 .main-image {
-  width: 600px;
-  height: 300px;
+  width: 500px;
+  height: 250px;
   /*border: 3px solid red;*/
 }
 
@@ -84,7 +84,7 @@ ul {
 }
 
 .section {
-  border: 3px solid red;
+  /*border: 3px solid red;*/
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -130,4 +130,72 @@ ul {
 
 .subtext {
   font-size: 18px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quote-text-section {
+  text-align: left;
+  width: 780px;
+  margin: 300px auto 0;
+  background: #e5e7eb;
+}
+
+.customer {
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.customer-container {
+  width: 780px;
+  text-align: right;
+  margin: 15px auto 0;
+}
+
+.cta-container {
+  width: 1000px;
+  height: 150px;
+  background: #3882f6;
+  margin: 200px auto 0;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.cta-btn {
+  border: 3px solid #f9faf8;
+  padding: 7px 40px;
+  color: #f9faf8;
+  background: #3882f6;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.cta {
+  font-size: 25px;
+}
+
+.cta-undertext {
+  font-size: 17px;
+}
+
+.footer-container {
+  height: 100px;
+  width: 100%;
+  background: #1f2937;
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
 }
